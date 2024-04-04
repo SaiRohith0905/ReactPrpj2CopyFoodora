@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header-container{
+  border: 2px solid burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-container > ul{
+  list-style-type: none;
+   display: flex;
+}
+.navbar-container > ul > li{
+  margin: 10px;
+}
+.app-logo-container{
+  margin: 2px;
+  padding: 2px;
+}
+.app-logo{
+  width: 250px;
+  height: 150px;
+}
+.rescard{
+  width: 255px;
+  margin: 3px;
+  padding: 9px;
+  border: solid 1px #009bcd ;
+}
+.rescard:hover{
+  cursor: pointer;
+  border: solid 2px rgb(184, 93, 2);
+}
+.res-image{
+  width: 100%;
+}
+.shim-container{
+  width: 250px;
+  margin: 3px;
+  padding: 2px;
+  height:350px;
+  
+
+}
+.img-box{
+  width:240px;
+  padding:2px;
+  height:150px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #eeeaea;
+}
+.text-box{
+  margin: 10px;
+  width: 200px;
+  height:20px;
+  background-color: #eeeaea;
+}
+.second-box{
+  width: 100px;
+}
+.third-box{
+  width:50px;
+}
+.shim-outer-cont,.rescard-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.showitem{
+  display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+    padding: 5px;
+    border: solid 2px #000;
+}
+.showitem:hover{
+  border: solid 2px goldenrod;
+}
+.add-btn{
+    bottom: 18px;
+    left: 80px;
+    background-color: lightgreen;
+    width: 60px;
+    height: 30px;
+    border-radius: 9px;
+}
+.hasimagid{
+  position: relative;
+}
+.noimageid{
+  margin-top: 50px;
+}
+.add-btn:hover{
+  cursor: pointer;
+}
+
